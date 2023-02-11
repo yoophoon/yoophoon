@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>CAD初始配置</title>
+      <link href="/2022/08/31/CAD%E5%88%9D%E5%A7%8B%E9%85%8D%E7%BD%AE/"/>
+      <url>/2022/08/31/CAD%E5%88%9D%E5%A7%8B%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h1>CAD配置</h1><blockquote><p>重装系统之后发现有更高的CAD版本可用，但是各种操作逻辑与之前版本不一致，写篇博客用来记录下CAD版本的配置过程</p></blockquote><h2 id="启动项">启动项</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> AutoCAD </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AutoCAD </tag>
+            
+            <tag> 配置 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/08/31/hello-world/"/>
+      <url>/2022/08/31/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CAD源泉插件学习笔记</title>
+      <link href="/2022/07/08/CAD%E6%BA%90%E6%B3%89%E6%8F%92%E4%BB%B6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2022/07/08/CAD%E6%BA%90%E6%B3%89%E6%8F%92%E4%BB%B6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="源泉插件学习笔记"><a href="#源泉插件学习笔记" class="headerlink" title="源泉插件学习笔记"></a>源泉插件学习笔记</h1><h2 id="关于源泉设计"><a href="#关于源泉设计" class="headerlink" title="关于源泉设计"></a>关于源泉设计</h2><blockquote><p><strong>源泉设计</strong> 作者系建筑师，自90年代初起，在长期的建筑设计、装饰设计绘图中积累了一些经验和编写了一些AutoLisp程序，当这些小程序开始越来越多的时候便有组织地规划整理为一套辅助软件，在单位小范围内使用。2001年与迷你建筑工具的作者Mai.c.y交流过源码，糅合了迷你建筑工具的许多功能，后来又在rjw的帮助下添加了不少实用小程序，软件整体功能和易用性大增。2005年起，软件起名为“源泉建筑”，上传互联网上供大家免费下载使用。随着软件功能的不断积累壮大，喜爱使用“源泉建筑”的人越来越多。后来由于装饰部分工具大增，自6.3.6版(2014年7月)起“源泉建筑”改名为“源泉设计”。</p><p>时至今日，经过20多年的发展，“源泉设计”越来越成熟，结构越来越合理，已经成为一个易用、易定制、快捷、强大的建筑、装饰相关专业制图工具。</p><p>在软件编写期间很多人提供了宝贵的意见，作者在此表示衷心的感谢。</p></blockquote><p>先默默的给林总点个赞  [b(￣▽￣)d]，以表仰慕、敬意~</p><h2 id="源泉设计功能"><a href="#源泉设计功能" class="headerlink" title="源泉设计功能"></a>源泉设计功能</h2><div class="note info modern"><p>记录主要参照<a href="http://www.yqarch.cn/course/yqshow_%E6%BA%90%E6%B3%89%E5%8A%A0%E5%BC%BA%E7%89%88%E5%B8%AE%E5%8A%A9%E6%96%87%E4%BB%B6v6.6.8_20190330.chm">源泉插件的详细帮助</a>，查阅文档是学习使用工具最直接有效的方法,<a href="http://www.yqarch.cn/">官网</a>也有很多资料可以查阅。</p></div><h3 id="系统设定"><a href="#系统设定" class="headerlink" title="系统设定"></a>系统设定</h3><h4 id="用户系统配置"><a href="#用户系统配置" class="headerlink" title="用户系统配置"></a>用户系统配置</h4><blockquote><p>快捷键<code>yqsys</code>  </p></blockquote><p>该配置其实是 <code>$YQArch\sys\user*\config.txt</code> 文件，各项参数后面均有注释，直接编辑<code>config.txt</code>与菜单修改最终效果一致，但通过菜单的方式修改退出后能直接将已打开的CAD图纸进行更新，而编辑<code>config.txt</code>则需重新启动CAD软件。</p><blockquote><p>系统配置里有许多的值为软件自带的变量，如：箭头样式可直接使用 DIMBLK 系统变量的值。<br>源泉插件也创建了许多系统变量，但作者未公开，如果公开了这些数据，基于源泉插件进行定制功能要轻松的许多，后续会接触到这些未被公开的系统变量。</p></blockquote><h4 id="源泉设计命令总览"><a href="#源泉设计命令总览" class="headerlink" title="源泉设计命令总览"></a>源泉设计命令总览</h4><blockquote><p>快捷键<code>yq\yy</code></p></blockquote><p>作用为查看所有源泉命令及其快捷键&lt;<code>yq</code>&gt;或自定义源泉菜单的快捷键，该命令还可以对命令组进行编辑&lt;<code>yy</code>&gt;。</p><h4 id="源泉图像按钮"><a href="#源泉图像按钮" class="headerlink" title="源泉图像按钮"></a>源泉图像按钮</h4><blockquote><p>快捷键<code>tba\tbaf</code></p></blockquote><p>开启或关闭源泉菜单的图标按钮，习惯使用图像按钮的话可以打开&lt;<code>tba</code>&gt;，当然习惯了快捷键的话也可以将图像按钮关闭&lt;<code>tbaf</code>&gt;</p><h4 id="切换当前用户"><a href="#切换当前用户" class="headerlink" title="切换当前用户"></a>切换当前用户</h4><blockquote><p>快捷键<code>yquser</code></p></blockquote><p>该菜单用于切换用户配置，大多数情况只需配置一个用户即可，但如果牵扯到多专业的话，我们可以分别为每个专业配置一个专业用户，这样我们就不必重复的去配置源泉插件，只需切换用户，其用户配置也一同切换了。</p><h4 id="切换提示语言"><a href="#切换提示语言" class="headerlink" title="切换提示语言"></a>切换提示语言</h4><blockquote><p>快捷键<code>yqlang</code></p></blockquote><p>林大还是牛逼，专门为插件适配了英语</p><div class="note info modern"><p>实际上大多数工程软件早期版本的语言都是英文的，只是后续进入中国市场后才进行的汉化，而想要在此类软件上进行二次开发，英语是必要的</p></div><h4 id="设定绘图单位"><a href="#设定绘图单位" class="headerlink" title="设定绘图单位"></a>设定绘图单位</h4><blockquote><p>快捷键<code>yqunits</code></p></blockquote><p>这个菜单内置了 毫米、厘米、分米、米、英寸 四种单位格式，如果 CAD格式&gt;单位 如果也是设置了这四种单位，源泉的绘图单位会自动设置成一样的单位</p><div class="note info modern"><p>这个设定引用了CAD的系统变量：INSUNITS</p></div><h4 id="加载源泉菜单"><a href="#加载源泉菜单" class="headerlink" title="加载源泉菜单"></a>加载源泉菜单</h4><blockquote><p>快捷键<code>yqmenu</code></p></blockquote><p>猜测菜单栏没源泉设计按钮时使用</p><h4 id="设定图纸-符号比例"><a href="#设定图纸-符号比例" class="headerlink" title="设定图纸\符号比例"></a>设定图纸\符号比例</h4><blockquote><p>快捷键<code>sd</code></p></blockquote><p>设定图纸比例及缩放相关符号</p><div class="note info modern"><p>前面提到过源泉的系统变量，这个源泉设置绘图单位也是: </p></div><h4 id="绘制图框"><a href="#绘制图框" class="headerlink" title="绘制图框"></a>绘制图框</h4><blockquote><p>快捷键<code>tk</code></p></blockquote><p>快速生成图框，这个好玩的地方在于可以定制图框，有时间的话就补这个坑。</p><h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><table><thead><tr><th align="center">菜单</th><th align="left">作用</th></tr></thead><tbody><tr><td align="center">详细帮助</td><td align="left"><a href="http://www.yqarch.cn/course/yqshow_%E6%BA%90%E6%B3%89%E5%8A%A0%E5%BC%BA%E7%89%88%E5%B8%AE%E5%8A%A9%E6%96%87%E4%BB%B6v6.6.8_20190330.chm">源泉的一些重要功能的帮助文档</a></td></tr><tr><td align="center">源泉版本号</td><td align="left">控制台输出源泉插件的版本号</td></tr><tr><td align="center">源泉设计网站</td><td align="left"><a href="http://yqarch.cn/">yqarch.cn</a></td></tr><tr><td align="center">截图教程网站</td><td align="left"><a href="http://bigd.ys168.com/">bigd.ys168.com</a></td></tr><tr><td align="center">赞助与支持</td><td align="left">林大可能不缺这点钱，当如果确实有用，可以通过赞助以表示对软件的肯定</td></tr><tr><td align="center">源于源泉</td><td align="left">软件的一些信息及交流圈子信息</td></tr><tr><td align="center">卸载源泉设计</td><td align="left">不要动</td></tr></tbody></table><h3 id="平面墙柱"><a href="#平面墙柱" class="headerlink" title="平面墙柱"></a>平面墙柱</h3><p>后面有时间再写，2022年7月9日 20:47记</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CAD学习之路 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AutoCAD </tag>
+            
+            <tag> 源泉插件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用hexo及配置butterfly主题(二)</title>
+      <link href="/2022/06/17/%E4%BD%BF%E7%94%A8hexo%E5%8F%8A%E9%85%8D%E7%BD%AEbutterfly%E4%B8%BB%E9%A2%98-%E4%BA%8C/"/>
+      <url>/2022/06/17/%E4%BD%BF%E7%94%A8hexo%E5%8F%8A%E9%85%8D%E7%BD%AEbutterfly%E4%B8%BB%E9%A2%98-%E4%BA%8C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="菜单栏设置"><a href="#菜单栏设置" class="headerlink" title="菜单栏设置"></a>菜单栏设置</h1><p>导航栏配置在<code>menu:</code>下方，一级菜单格式：<code>L1MenuName: path||icon</code>；二级菜单格式如下所示：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">L1MenuName||ico||hide:</span> </span><br><span class="line">  <span class="attr">L2MenuName1:</span> <span class="string">/menuPath1/||icon</span> </span><br><span class="line">  <span class="attr">L2MenuName2:</span> <span class="string">/menuPath2/||icon</span> </span><br></pre></td></tr></table></figure><div class="note info modern"><p>菜单栏似乎最多只支持二级菜单</p></div><div class="note info modern"><p>链接菜单可以由<code>./source/_data/link.yml</code>补充信息，虽然<code>./source/link/index.md</code>也能添加</p></div><h1 id="代码块设置"><a href="#代码块设置" class="headerlink" title="代码块设置"></a>代码块设置</h1><p>按下面设置即可，备注都有可选项</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">highlight_theme:</span> <span class="string">mac</span> <span class="string">light</span> <span class="comment">#  代码块主题 可选：darker / pale night / light / ocean / mac / mac light / false</span></span><br><span class="line"><span class="attr">highlight_copy:</span> <span class="literal">true</span> <span class="comment"># 是否显示复制按钮 copy button</span></span><br><span class="line"><span class="attr">highlight_lang:</span> <span class="literal">true</span> <span class="comment"># 是否显示代码类型 show the code language</span></span><br><span class="line"><span class="attr">highlight_shrink:</span> <span class="literal">false</span> <span class="comment"># 是否收起 true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button</span></span><br><span class="line"><span class="attr">highlight_height_limit:</span> <span class="literal">false</span> <span class="comment"># 高度限制 unit: px</span></span><br><span class="line"><span class="attr">code_word_wrap:</span> <span class="literal">false</span> <span class="comment"># 是否自动换行</span></span><br></pre></td></tr></table></figure><h1 id="版权及复制设置"><a href="#版权及复制设置" class="headerlink" title="版权及复制设置"></a>版权及复制设置</h1><p>设置版权信息及是否显示</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_copyright:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">decode:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">author_href:</span> <span class="string">yoophoon.gitee.io</span></span><br><span class="line">  <span class="attr">license:</span> <span class="string">CC</span> <span class="string">BY-NC-SA</span> <span class="number">4.0</span></span><br><span class="line">  <span class="attr">license_url:</span> <span class="string">https://creativecommons.org/licenses/by-nc-sa/4.0/</span></span><br></pre></td></tr></table></figure><p>设置是否在复制内容后添加版权信息</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">copy:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">copyright:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">limit_count:</span> <span class="number">50</span></span><br></pre></td></tr></table></figure><h1 id="社交图标设置"><a href="#社交图标设置" class="headerlink" title="社交图标设置"></a>社交图标设置</h1><p>社交图标指的是头像下面的那些图标，其设置格式为<code>icon link || description</code>，具体设置可参考<font title="_config.butterfly.yml" color="yellblue">配置</font>进行</p><h1 id="本地搜索"><a href="#本地搜索" class="headerlink" title="本地搜索"></a>本地搜索</h1><h2 id="安装搜索插件"><a href="#安装搜索插件" class="headerlink" title="安装搜索插件"></a>安装搜索插件</h2><p>执行命令，安装本地搜索插件</p><blockquote><p>$ npm install hexo-generator-search –save  </p></blockquote><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>在根目录下的<code>_config.yml</code>中配置</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span> <span class="comment">#文件路径，扩展名为`.json`则会输出JSON文件，否则输出XML文件</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span>  <span class="comment">#搜索类型 post for all blogs,page for all pages,All for all</span></span><br><span class="line">  <span class="attr">content:</span> <span class="literal">true</span> <span class="comment">#是否对正文进行搜索，flase for title&amp;metaInfo</span></span><br><span class="line">  <span class="attr">template:</span> <span class="comment">#./search.xml 搜索模板，可选设置</span></span><br></pre></td></tr></table></figure><div class="note info modern"><p>如果某些页面不想被搜索到可以在编写时<code>front matter</code>中添加<code>indexing: false</code>即可使该文章不被检索</p></div> <h1 id="数学-推荐使用KATEX"><a href="#数学-推荐使用KATEX" class="headerlink" title="数学(推荐使用KATEX)"></a>数学(推荐使用KATEX)</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>卸载对应的渲染器</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm un hexo-renderer-marked --save <span class="comment"># 如果有安裝這個的話，卸載</span></span><br><span class="line">npm un hexo-renderer-kramed --save <span class="comment"># 如果有安裝這個的話，卸載</span></span><br><span class="line"></span><br><span class="line">npm i hexo-renderer-markdown-it --save <span class="comment"># 需要安裝這個渲染插件</span></span><br><span class="line">npm install @neilsustc/markdown-it-katex --save <span class="comment">#需要安裝這個katex插件</span></span><br></pre></td></tr></table></figure><p>配置根目录的_config.yml</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">plugin:</span></span><br><span class="line">      <span class="attr">name:</span> <span class="string">&#x27;@neilsustc/markdown-it-katex&#x27;</span></span><br><span class="line">      <span class="attr">options:</span></span><br><span class="line">        <span class="attr">strict:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><h2 id="编写公式"><a href="#编写公式" class="headerlink" title="编写公式"></a>编写公式</h2><div class="note info modern"><p>相关的书写格式可以参考<a href="https://katex.org/docs/support_table.html">支持格式</a></p></div><p>$x^2+y^2+Dx+Ey+F=0$  </p><p>$\begin{align} a&amp;=b+c \ d+e&amp;=f \end{align}$  </p><p>$\begin{Bmatrix*}[r] 0 &amp; -1 \ -1 &amp; 0 \end{Bmatrix*}$  </p><h1 id="图片设置"><a href="#图片设置" class="headerlink" title="图片设置"></a>图片设置</h1><p>设置看主题配置文件<code>_config.butterfly.yml</code>即可，这里不做赘述</p><h1 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>要实现字数统计需要安装<code>hexo-wordcount</code>插件，安装命令为<code>npm install hexo-wordcount --save</code></p><div class="note warning modern"><p>未安装插件在生成博客时会报错</p></div><h2 id="设置主题配置文件"><a href="#设置主题配置文件" class="headerlink" title="设置主题配置文件"></a>设置主题配置文件</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">wordcount:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">post_wordcount:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">min2read:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_wordcount:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><hr><h1 id="图片描述"><a href="#图片描述" class="headerlink" title="图片描述"></a>图片描述</h1><p><code>photofigcaption</code>是用来设置是否 显示图片描述文字的，false则不显示文字，true则显示文字<br><img src="https://note.youdao.com/yws/api/personal/file/WEB94e77097cf15bbfc3ba5c045da678ac2?method=download&shareKey=29de4fac82c9c6ce2621d81ce5607f56" alt="图片"></p><div class="note info modern"><p>推荐将该属性设置为<code>true</code>，如不需显示文字可在[]中留空即可</p></div><h1 id="绘制图表"><a href="#绘制图表" class="headerlink" title="绘制图表"></a>绘制图表</h1><p>使用mermaid标签可以绘制Flowchart（流程图）、Sequence diagram（时序图 ）、Class Diagram（类别图）、State Diagram（状态图）、Gantt（甘特图）和Pie Chart（圆形图），具体可以查看<a href="https://mermaid-js.github.io/mermaid/#/">mermaid文档</a><br>使用前修改配置文件_config.butterfly.yml</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">mermaid:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># built-in themes: default/forest/dark/neutral</span></span><br><span class="line">  <span class="attr">theme:</span></span><br><span class="line">    <span class="attr">light:</span> <span class="string">default</span></span><br><span class="line">    <span class="attr">dark:</span> <span class="string">dark</span></span><br></pre></td></tr></table></figure><div class="tabs" id="mermaid用法"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#mermaid用法-1">饼图</button></li><li class="tab"><button type="button" data-href="#mermaid用法-2">流程图</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="mermaid用法-1"><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="string">%</span> <span class="string">mermaid</span> <span class="string">%</span>&#125;</span><br><span class="line"><span class="string">pie</span></span><br><span class="line">    <span class="string">title</span> <span class="string">Key</span> <span class="string">elements</span> <span class="string">in</span> <span class="string">Product</span> <span class="string">X</span></span><br><span class="line">    <span class="string">&quot;Calcium&quot;</span> <span class="string">:</span> <span class="number">42.96</span></span><br><span class="line">    <span class="string">&quot;Potassium&quot;</span> <span class="string">:</span> <span class="number">50.05</span></span><br><span class="line">    <span class="string">&quot;Magnesium&quot;</span> <span class="string">:</span> <span class="number">10.01</span></span><br><span class="line">    <span class="string">&quot;Iron&quot;</span> <span class="string">:</span>  <span class="number">5</span></span><br><span class="line">&#123;<span class="string">%</span> <span class="string">endmermaid</span> <span class="string">%</span>&#125;</span><br></pre></td></tr></table></figure><div class="mermaid-wrap"><pre class="mermaid-src" hidden>  pie    title Key elements in Product X    &quot;Calcium&quot; : 42.96    &quot;Potassium&quot; : 50.05    &quot;Magnesium&quot; : 10.01    &quot;Iron&quot; :  5  </pre></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="mermaid用法-2"><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="string">%</span> <span class="string">mermaid</span> <span class="string">%</span>&#125; </span><br><span class="line"><span class="string">journey</span></span><br><span class="line">    <span class="string">title</span> <span class="string">My</span> <span class="string">working</span> <span class="string">day</span></span><br><span class="line">    <span class="string">section</span> <span class="string">Go</span> <span class="string">to</span> <span class="string">work</span></span><br><span class="line">      <span class="attr">Make tea: 5:</span> <span class="string">Me</span></span><br><span class="line">      <span class="attr">Go upstairs: 3:</span> <span class="string">Me</span></span><br><span class="line">      <span class="attr">Do work: 1:</span> <span class="string">Me,</span> <span class="string">Cat</span></span><br><span class="line">    <span class="string">section</span> <span class="string">Go</span> <span class="string">home</span></span><br><span class="line">      <span class="attr">Go downstairs: 5:</span> <span class="string">Me</span></span><br><span class="line">      <span class="attr">Sit down: 5:</span> <span class="string">Me</span></span><br><span class="line">&#123;<span class="string">%</span> <span class="string">endmermaid</span> <span class="string">%</span>&#125;</span><br></pre></td></tr></table></figure><div class="mermaid-wrap"><pre class="mermaid-src" hidden>   <p>journey<br>    title My working day<br>    section Go to work<br>      Make tea: 5: Me<br>      Go upstairs: 3: Me<br>      Do work: 1: Me, Cat<br>    section Go home<br>      Go downstairs: 5: Me<br>      Sit down: 5: Me<br>  </pre></div></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> web,blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> butterfly </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用hexo及配置butterfly主题(一)</title>
+      <link href="/2022/06/15/%E4%BD%BF%E7%94%A8hexo%E5%8F%8A%E9%85%8D%E7%BD%AEbutterfly%E4%B8%BB%E9%A2%98-%E4%B8%80/"/>
+      <url>/2022/06/15/%E4%BD%BF%E7%94%A8hexo%E5%8F%8A%E9%85%8D%E7%BD%AEbutterfly%E4%B8%BB%E9%A2%98-%E4%B8%80/</url>
+      
+        <content type="html"><![CDATA[<h1 id="使用HEXO"><a href="#使用HEXO" class="headerlink" title="使用HEXO"></a>使用HEXO</h1><blockquote><p>Hexo     <strong>快速、简洁且高效的博客框架</strong><br>Butterfly  <strong>一次撰写、多端适用的主题</strong>  </p></blockquote><h2 id="Hexo使用的准备工作"><a href="#Hexo使用的准备工作" class="headerlink" title="Hexo使用的准备工作"></a>Hexo使用的准备工作</h2><h3 id="安装Nodejs"><a href="#安装Nodejs" class="headerlink" title="安装Nodejs"></a>安装Nodejs</h3><p><a href="http://nodejs.cn/">Nodejs</a>官网提供了适用各平台的不同版本的安装包，windows平台安装安装选项保持默认就行，无需其他设置。</p><h3 id="配置Nodejs"><a href="#配置Nodejs" class="headerlink" title="配置Nodejs"></a>配置Nodejs</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">//设置/查看全局模块存放路径</span><br><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;全局模块存放路径&quot;</span> </span><br><span class="line">npm config get prefix</span><br><span class="line">//设置/查看缓存文件路径 </span><br><span class="line">npm config <span class="built_in">set</span> cache <span class="string">&quot;缓存路径&quot;</span>  </span><br><span class="line">npm config get cache</span><br><span class="line">//安装模块，加上-g后缀则安装至全局路径中</span><br><span class="line">npm install <span class="string">&quot;模块名&quot;</span> -g</span><br><span class="line">//查看已安装全局模块</span><br><span class="line">npm list -g</span><br></pre></td></tr></table></figure><h3 id="安装Hexo模块"><a href="#安装Hexo模块" class="headerlink" title="安装Hexo模块"></a>安装Hexo模块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//将hexo的模块安装至全局路径方便后期使用</span><br><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><h2 id="Hexo生成博客并浏览"><a href="#Hexo生成博客并浏览" class="headerlink" title="Hexo生成博客并浏览"></a>Hexo生成博客并浏览</h2><p>前期准备工作完成之后，我们可以使用hexo生成博客了，创建我们博客存放的文件夹并使用powershell在博客文件夹下使用<code>hexo init</code>或直接在博客文件存放目录使用powershell使用<code>hexo init &#39;blogName&#39;</code>进行初始化博客。<br>接下来使用<code>hexo g</code>命令生成博客的静态文件，使用<code>hexo s</code>命令启动本地博客服务，待命令行提示：</p><blockquote><p>INFO  Hexo is running at <a href="http://localhost:4000/">http://localhost:4000/</a> . Press Ctrl+C to stop.<br>即可在浏览器地址栏输入<code>http://localhost:4000/</code>访问我们第一次生成的博客。<br>下面是完整的命令语句：</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">//在博客存放的文件夹中创建并初始化博客</span><br><span class="line">hexo init myblog</span><br><span class="line">//根据 模板创建新的文章 模板位置为`./scaffolds`</span><br><span class="line">hexo new page <span class="string">&quot;myFirstBlog&quot;</span></span><br><span class="line">//生成博客的静态文件</span><br><span class="line">hexo g</span><br><span class="line">//启动本地服务</span><br><span class="line">hexo s</span><br><span class="line">//清除本地静态文件</span><br><span class="line">hexo clean</span><br><span class="line">//部署博客，该命令需要安装部署插件，使用`npm install hexo-deployer-git --save`安装  </span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><h2 id="Hexo配置"><a href="#Hexo配置" class="headerlink" title="Hexo配置"></a>Hexo配置</h2><p>浏览我们的博客时发现有些内容与我们所需要的不相符，这时就需要我们进行配置来生成我们自己的个性化博客了，使用VSCode打开文件博客目录下的<code>_config.yml</code>文件，并修改其对应的内容，下面是我自己的配置内容：</p><blockquote><p>文件不显示<code>.yml</code>后缀是因为我们没开启系统的显示文件后缀功能，启用相关功能后缀即可正常显示</p></blockquote><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 站点设置</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">yoophoon</span> <span class="comment">#网页标题</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">note</span> <span class="comment">#网页副标题</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">record</span> <span class="string">somethiing</span> <span class="string">interesting</span> <span class="comment">#描述</span></span><br><span class="line"><span class="attr">keywords:</span> <span class="string">yoophoon</span> <span class="comment">#关键字</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">yoophoon</span> <span class="comment">#作者</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span> <span class="comment">#语言 zh-CN/zh-TW/en</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span> <span class="comment">#时区</span></span><br></pre></td></tr></table></figure><h1 id="安装Butterfly并进行配置"><a href="#安装Butterfly并进行配置" class="headerlink" title="安装Butterfly并进行配置"></a>安装Butterfly并进行配置</h1><p>可能Hexo生成的样式不能满足我们的期望，不着急，Hexo提供了很多的<a href="https://hexo.io/themes/">主题样式</a>供我们选择，我使用的是Butterfly，下面来讲一讲Butterfly的安装及配置过程。</p><h2 id="安装Butterfly"><a href="#安装Butterfly" class="headerlink" title="安装Butterfly"></a>安装Butterfly</h2><p>butterfly的包名是<a href="https://github.com/jerryc127/hexo-theme-butterfly"><font color="seablue">hexo-theme-butterfly</font></a>，是一款基于<a href="https://github.com/Molunerfinn/hexo-theme-melody">hexo-theme-melody</a>，该主题提供了如下三种安装方式：  </p><div class="tabs" id="installbutterfly"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#installbutterfly-1"><i class="fab fa-github-square"></i>GIT安装(github)</button></li><li class="tab"><button type="button" data-href="#installbutterfly-2"><i class="fab fa-git-square"></i>GIT安装(gitee)</button></li><li class="tab"><button type="button" data-href="#installbutterfly-3"><i class="fab fa-npm"></i>NPM安装</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="installbutterfly-1"><blockquote><p>git clone -b master <a href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/butterfly  </p></blockquote><div class="note info simple"><p>升级方法：在主题目录下，运行 <code>git pull</code>  </p></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="installbutterfly-2"><blockquote><p>git clone -b master <a href="https://gitee.com/immyw/hexo-theme-butterfly.git">https://gitee.com/immyw/hexo-theme-butterfly.git</a> themes/butterfly  </p></blockquote><div class="note info simple"><p>升级方法：在主题目录下，运行 <code>git pull</code> </p></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="installbutterfly-3"><blockquote><p>npm i hexo-theme-butterfly  </p></blockquote><div class="note info modern"><p>升级方法：在 <strong>Hexo</strong> 根目录下，运行 <code>npm update hexo-theme-butterfly</code></p></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>  <h2 id="应用主题"><a href="#应用主题" class="headerlink" title="应用主题"></a>应用主题</h2><p>修改Hexo根目录下的<code>_config.yml</code>，把主题改为<code>butterfly</code>  </p><blockquote><p>theme: butterfly  </p></blockquote><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>主题需要安装pug以及stylus的渲染器，可用以下命令安装：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-renderer-pug</span> hexo<span class="literal">-renderer-stylus</span> <span class="literal">--save</span>  </span><br></pre></td></tr></table></figure><div class="note info simple"><p>Hexo及Butterfly的安装工作已经全部完成，后面开始主题的配置</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> web,blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Buttfly </tag>
+            
+            <tag> Nodejs </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/link.html"/>
+      <url>/link/link.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>my first blog</title>
+      <link href="/my-first-blog/index.html"/>
+      <url>/my-first-blog/index.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="the-first-blog"><a href="#the-first-blog" class="headerlink" title="the first blog"></a>the first blog</h1><blockquote><p>张三<br>李四  </p></blockquote><p>show something here</p>]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
